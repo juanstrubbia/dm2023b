@@ -24,7 +24,7 @@ require("lightgbm")
 PARAM  <- list()
 PARAM$experimento  <- "HB7960"
 
-PARAM$exp_input  <- c( "ZZ7950-01", "ZZ7950-66", "ZZ7950-53", "ZZ7950-52" )  # el inpput deben ser semillerios
+PARAM$exp_input  <- c("ZZ7950", "ZZ7951")  # el inpput deben ser semillerios
 
 PARAM$kaggle$envios_desde  <-  9500L
 PARAM$kaggle$envios_hasta  <- 12000L
